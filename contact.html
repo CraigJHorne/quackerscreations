@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quackers Creations</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- To get screen size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+    <!-- MAIN GRID -->
+
+    <div class="grid">
+
+        <!-- NAVIGATION -->
+
+        <nav>
+            <span><a href="index.html"><img src="images/logo.svg" class="nav_logo"></a></span>
+            <span><a href="about.html" class="nav_links"><h2>About</h2></a></span>
+            <span><a href="prices.html" class="nav_links"><h2>Prices</h2></a></span>
+        </nav>
+
+        <!-- MAIN SECTION -->
+
+        <div class="sub_wrapper">
+           <h1>CONTACT</h1>
+           <div class="container">
+                <form>
+
+                    <label for="fname">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+
+                    <label for="cake">Occasion</label>
+                    <select id="cake" name="cake">
+                      <option value="birthday">Birthday</option>
+                      <option value="wedding">Wedding</option>
+                      <option value="novelty">Novelty</option>
+                      <option value="cupcakes">Cupcakes</option>
+                    </select>
+
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <a href="index.html" class="nav_links"><input type="submit" value="Submit"></a>
+
+                </form>
+            </div>
+        </div>
+
+</body>
+</html>
